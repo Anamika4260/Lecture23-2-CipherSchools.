@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+void printmaxclassesattend(int start[], int end[], int class_id[])
+int main()
+{
+int start[]={2,2,4,5,1,5,8,9,1};
+int end[]={3,5,8,9,10,11,14,16};
+int class_id[]={4,2,3,1,5,6,7,8,9};
+printmaxclassesattend(start,end,class_id);
+return 0;
+}
